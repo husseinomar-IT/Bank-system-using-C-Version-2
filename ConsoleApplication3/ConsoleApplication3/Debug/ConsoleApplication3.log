@@ -1,0 +1,36 @@
+﻿Build started 8/8/2023 6:55:48 PM.
+     1>Project "C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(185): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(297): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(321): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(342): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(371): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(398): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(422): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(458): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(492): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(522): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(567): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsstring.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsbankclient.h(451): warning C4240: nonstandard extension used : access to 'clsBankClient::stTransferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+                 c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsbankclient.h(193) : see declaration of 'clsBankClient::stTransferLogRecord'
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsutil.h(236): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsutil.h(246): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsuser.h(200): warning C4240: nonstandard extension used : access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+                 c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsuser.h(171) : see declaration of 'clsUser::stLoginRegisterRecord'
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clstotalbalancescreen.h(51): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clscurrency.h(24): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clscurrencycalculatorscreen.h(22): warning C4129: 'C' : unrecognized character escape sequence
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsuser.h(380): warning C4715: 'clsUser::Save' : not all control paths return a value
+     1>c:\users\hp\documents\visual studio 2013\projects\consoleapplication3\consoleapplication3\clsbankclient.h(358): warning C4715: 'clsBankClient::Save' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Debug\ConsoleApplication3.lib" /MACHINE:X86 Debug\Source.obj
+         ConsoleApplication3.vcxproj -> C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+     1>Done Building Project "C:\Users\hp\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.01
